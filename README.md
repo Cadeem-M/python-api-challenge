@@ -11,35 +11,35 @@ Then, in the second half of this week's challenge, use geoviews to illustrate lo
 Within the notebook titled "WeatherPy.ipynb", numpy.random.uniform was called on a range of latitude and longitudes to generate coordinates for number of places around the globe. 
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 160243.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 160243.png" width="700px">
 </p>
 
 Those coordinates were then use to search via API in geoapify's database for the associated Cities. A data frame is created containing the randomly generated cities and saved to a csv. Then, using geoapify, various information such as a city's max temperature or its humidity is extracted and stored into the data frame to be used for analyzing their correlation to latitude.
 
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 160322.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 160322.png" width="700px">
 </p>
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 160357.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 160357.png" width="700px">
 </p>
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 160420.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 160420.png" width="700px">
 </p>
 
 The created datafame used for analysis
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 160436.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 160436.png" width="700px">
 </p>
 
 Scatter plots were used to analyze the relationship between a city's latitude and various metrics.
 
 Latitude Vs. Temperature
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 160611.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 160611.png" width="700px">
 </p>
 
 <p align="center">
@@ -129,7 +129,7 @@ As more of a discussion, I'm not sure if southern hemisphere's data has less var
 The saved data frame of cities is then read into a second python script, VacationPy where I use the data frame to map locations I'd ideally vacate to using geoviews. To start, the cities data frame is plotted onto a map for visualizations using hvplots.
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-17 185120.png" width="500px">
+<img src="Images\Screenshot 2024-09-17 185120.png" width="700px">
 </p>
 
 <p align="center">
@@ -139,21 +139,21 @@ The saved data frame of cities is then read into a second python script, Vacatio
 Next, the data was filtered to a subset of locations I would ideally vacate to given various parameters suchs as the locations humidity and max temperature. Using Geoapify API, the nearest hotel to a city's listed coordinates within 10km radius is recorded into the Data frame in a new column.
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-18 003422.png" width="500px">
+<img src="Images\Screenshot 2024-09-18 003422.png" width="700px">
 </p>
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-18 003501.png" width="500px">
+<img src="Images\Screenshot 2024-09-18 003501.png" width="700px">
 </p>
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-18 004635.png" width="500px">
+<img src="Images\Screenshot 2024-09-18 004635.png" width="700px">
 </p>
 
 Finally, those cities I would like to vation to are plotted onto a map with interactive hover points that detail a city's coordinates, humidity, country and nearest hotel
 
 <p align="center">
-<img src="Images\Screenshot 2024-09-18 004946.png" width="500px">
+<img src="Images\Screenshot 2024-09-18 004946.png" width="700px">
 </p>
 
 
