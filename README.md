@@ -1,7 +1,7 @@
 # python-api-challenge
 "What is the weather like as we approach the equator?" In the first part of this week's challenge, I am going to show evidence that as you approach the equator, the weather gets hotter. Additionally, I will analyze the correlation between latitude and various weather measurements such as humidity, wind speed and cloudiness.
 
-Then, in the second half of this week's challenge, use geoviews to illustrate locations on a map that I'd ideally vacation to based on filtering a data set of locations around parameters suchs as my ideal temperature and humidity.
+Then, in the second half of this week's challenge, I'll be using geoviews to illustrate locations on a map that I'd ideally vacation to based on filtering a data set of locations around parameters suchs as my ideal temperature and humidity.
 
 
 ## How I went about it.
